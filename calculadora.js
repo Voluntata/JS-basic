@@ -1,5 +1,5 @@
 let elementos = [];// array de numeros y operadores
-let input = 0; //valor base 
+let input = 0; 
 let resultBtn = document.getElementById("result");// el campo de resultado
 
 function calculo(valor) {

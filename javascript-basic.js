@@ -16,7 +16,7 @@ let sum = num1 + num2;
 console.log(`La suma entre ${num1} y ${num2} es ${sum}`);
 
 // 5
-let nota = prompt('Nota?');
+let nota = parseFloat(prompt('Nota?'));
 let message = (nota < 5 && nota !== null && nota !== '') ? `Ohh has suspendido el examen con ${nota}` :
     (5 <= nota && nota < 10) ? `Felicidades! Has aptobado el examen con ${nota}` :
         (nota > 10) ? 'Eso no es una nota' :
